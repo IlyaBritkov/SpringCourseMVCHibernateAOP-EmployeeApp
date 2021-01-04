@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>All employees</h1>
+<br>
 <table>
     <tr>
         <th>Name</th>
@@ -22,5 +23,8 @@
         </tr>
     </c:forEach>
 </table>
+<br>
+<input type="button" value="Add" onclick="window.location.href = 'addNewEmployee'"/>
+
 </body>
 </html>
