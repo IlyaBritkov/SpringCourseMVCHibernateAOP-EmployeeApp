@@ -8,3 +8,4 @@
 /httpRequests/
 /target
 *.iml
+/src/main/java/com/springcourse/mvc/test
