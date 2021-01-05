@@ -8,7 +8,9 @@
 <body>
 <h1>Employee info</h1>
 <br>
-<form:form action="saveEmployee" modelAttribute="employee">
+<form:form action="saveEmployee" modelAttribute="employee"  >
+    <form:hidden path="id"/>
+
     Name <form:input path="name"/>
     <br><br>
 
