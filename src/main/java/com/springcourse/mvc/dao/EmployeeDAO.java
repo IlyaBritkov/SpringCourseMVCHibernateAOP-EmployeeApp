@@ -10,4 +10,7 @@ public interface EmployeeDAO {
     void saveEmployee(Employee employee);
 
     Employee getEmployee(int id);
+
+    void deleteEmployee(int id);
+
 }
